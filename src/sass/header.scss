@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    background-color: $primaryColor;
+    justify-content: space-between;
+
+    & ul{
+        display: flex;
+
+        & li{
+            padding: 5px;
+        }
+    }
+}
