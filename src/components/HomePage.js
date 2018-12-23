@@ -2,7 +2,7 @@ import React from 'react';
 
 // components
 import Header from './Header';
-import Room from './Room';
+import Room from '../containers/Room';
 import Jobs from '../containers/Jobs';
 import Forum from './Forum';
 import Footer from './Footer';

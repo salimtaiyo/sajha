@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import HomePage from './HomePage';
 import Login from '../containers/Login';
 import Register from '../containers/Register';
+import Signup from '../containers/Signup';
 
 
 function Home() {
@@ -12,7 +13,6 @@ function Home() {
     <div>
         <Switch>
             <Route exact path="/" component={HomePage}/>
-            <Route path="/login" component={Login}/>
             <Route path="/register" component={Register}/>
         </Switch>
     </div>
@@ -20,3 +20,5 @@ function Home() {
 }
 
 export default Home
+
+// <Route path="/register" component={Login}/>
